@@ -42,11 +42,13 @@ These methods are very useful in the functionality of a ViewFlipper:
 
 ### Main attributes used in ViewFlipper:
 	
-	1. autoStart - property used to start animating automatically between children views (true or false value)
-	2. flipInterval - property used to set the time in milliseconds for the animation duration of each flip between child views
-	3. animateFirstView - property used to animate the first view of the ViewFlipper when the ViewFlipper is first displayed (true or false value)
-	4.inAnimation - property that defines the animation used when the child view enters the screen
-	5.outAnimation - property that defines the animation used when the child view leaves the screen
+| Attribute        | Use                                                                                                                      |
+|------------------|--------------------------------------------------------------------------------------------------------------------------|
+| autoStart        | property used to start animating automatically between children views (true or false value)                              |
+| flipInterval     | property used to set the time in milliseconds for the animation duration of each flip between child views                |
+| animateFirstView | property used to animate the first view of the ViewFlipper when the ViewFlipper is first displayed (true or false value) |
+| inAnimation      | property that defines the animation used when the child view enters the screen                                           |
+| outAnimation     | property that defines the animation used when the child view leaves the screen                                           |
 
 ## References:
 	https://abhiandroid.com/ui/viewflipper
