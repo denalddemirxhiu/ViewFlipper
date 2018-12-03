@@ -16,14 +16,7 @@ ViewFlipper has been introduced since the first release of Android (API level 1)
 ## Major Methods/Attributes
 These methods are very useful in the functionality of a ViewFlipper:
 	
-	1. boolean isAutoStart() - returns true if the ViewFlipper calls startFlipping automatically when it is displayed
-	2. boolean isFlipping() - returns true if the contained views are being flipped
-	3. void setAutoStart(boolean autoStart) - decides if the method is going to automatically call startFlipping() when it is attached to the container
-	4. void setFlipInterval(int milliseconds) - it sets a flipping interval timer (how long to wait before flipping to the next child view)
-	5. void startFlipping() - starts a timer to flip through contained views
-	6. void stopFlipping() - stops the flipping of the children views
-	
-	| Method                                 | Use                                                                                                       |
+| Method                                 | Use                                                                                                       |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | boolean isAutoStart()                  | returns true if the ViewFlipper calls startFlipping automatically when it is displayed                    |
 | boolean isFlipping()                   | returns true if the contained views are being flipped                                                     |
