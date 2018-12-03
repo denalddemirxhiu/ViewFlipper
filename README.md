@@ -52,7 +52,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 
 ## Example Project
 
-The example project can be downloaded by cloning this repository: 
+The example project can be downloaded by cloning this repository: https://github.com/denalddemirxhiu/ViewFlipper.git
 
 
 ## The code
