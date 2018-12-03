@@ -346,8 +346,8 @@ Contains the main layout file of the application. ViewFlipper contains two impor
 ```
 
 ## References
-Android Developer Guide (ViewFlipper) - can be viewed [here](https://developer.android.com/reference/android/widget/ViewFlipper)
-Abhi Android (ViewFlipper Example) - can be viewed [here](https://abhiandroid.com/ui/viewflipper)
+- Android Developer Guide (ViewFlipper) - can be viewed [here](https://developer.android.com/reference/android/widget/ViewFlipper)
+- Abhi Android (ViewFlipper Example) - can be viewed [here](https://abhiandroid.com/ui/viewflipper)
 
 
 
