@@ -55,7 +55,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 	MainActivity.java
 
 
-	package com.example.android.viewflippersample;
+	```package com.example.android.viewflippersample;
 
 	import android.support.v7.app.AppCompatActivity;
 	import android.os.Bundle;
@@ -209,7 +209,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 		seekBar = findViewById(R.id.seekBar);
 		intervalText = findViewById(R.id.intervalText);
 	    }
-	}
+	}```
 
 ## References
 	https://abhiandroid.com/ui/viewflipper
