@@ -50,6 +50,11 @@ These methods are very useful in the functionality of a ViewFlipper:
 | inAnimation      | property that defines the animation used when the child view enters the screen                                           |
 | outAnimation     | property that defines the animation used when the child view leaves the screen                             |
 
+## Example Project
+
+The example project can be downloaded by cloning this repository: 
+
+
 ## The code
 
 #### MainActivity.java
@@ -345,7 +350,7 @@ Contains the main layout file of the application. ViewFlipper contains two impor
 </android.support.constraint.ConstraintLayout>
 ```
 
-#### Custom Animations created for the previous transition
+#### Custom Animations created for the previous child transition
 
 						slide_in_right.xml
 
