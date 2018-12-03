@@ -28,7 +28,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 | void startFlipping()                   | starts a timer to flip through contained views                                                            |
 | void stopFlipping()                    | stops the flipping of the child views                                                                     |
 
-### Useful methods that are used with ViewFlipper but part of ViewAnimator
+#### Useful methods that are used with ViewFlipper but are part of ViewAnimator
 	
 | Method                                       | Use                                                                                  |
 |----------------------------------------------|--------------------------------------------------------------------------------------|
