@@ -345,6 +345,32 @@ Contains the main layout file of the application. ViewFlipper contains two impor
 </android.support.constraint.ConstraintLayout>
 ```
 
+#### Custom Animations created for the previous transition
+
+						slide_in_right.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromXDelta="50%p" android:toXDelta="0"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+    <alpha android:fromAlpha="0.0" android:toAlpha="1.0"
+        android:duration="@android:integer/config_mediumAnimTime" />
+</set>
+```
+
+						slide_out_left.xml
+						
+```
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromXDelta="0" android:toXDelta="-50%p"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+    <alpha android:fromAlpha="1.0" android:toAlpha="0.0"
+        android:duration="@android:integer/config_mediumAnimTime" />
+</set>
+```
+
 ## References
 - Android Developer Guide (ViewFlipper) - can be viewed [here](https://developer.android.com/reference/android/widget/ViewFlipper)
 - Abhi Android (ViewFlipper Example) - can be viewed [here](https://abhiandroid.com/ui/viewflipper)
