@@ -6,12 +6,14 @@ ViewFlipper is a great widget to be used in animating multiple views that have b
 
 ## History of ViewFlipper
 ViewFlipper has been introduced since the first release of Android (API level 1). The widget is still supported up to the latest version of Android currently available at API level 28. ViewFlipper extends ViewAnimator, which is also a widget. The class hierarchy is as follows:
-	java.lang.Object
-	android.view.View
-	android.view.ViewGroup
-	android.widget.FrameLayout 
-	android.widget.ViewAnimator
-	android.widget.ViewFlipper
+	
+| java.lang.Object            |
+|-----------------------------|
+| android.view.View           |
+| android.view.ViewGroup      |
+| android.widget.FrameLayout  |
+| android.widget.ViewAnimator |
+| android.widget.ViewFlipper  |
 
 ## Major Methods/Attributes
 These methods are very useful in the functionality of a ViewFlipper:
