@@ -52,7 +52,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 
 ## The code
 	
-	MainActivity.java
+							MainActivity.java
 
 ```
 	package com.example.android.viewflippersample;
