@@ -22,6 +22,15 @@ These methods are very useful in the functionality of a ViewFlipper:
 	4. void setFlipInterval(int milliseconds) - it sets a flipping interval timer (how long to wait before flipping to the next child view)
 	5. void startFlipping() - starts a timer to flip through contained views
 	6. void stopFlipping() - stops the flipping of the children views
+	
+	| Method                                 | Use                                                                                                       |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| boolean isAutoStart()                  | returns true if the ViewFlipper calls startFlipping automatically when it is displayed                    |
+| boolean isFlipping()                   | returns true if the contained views are being flipped                                                     |
+| void setAutoStart(boolean autoStart)   | decides if the method is going to automatically call startFlipping() when it is attached to the container |
+| void setFlipInterval(int milliseconds) | it sets a flipping interval timer (how long to wait before flipping to the next child view)               |
+| void startFlipping()                   | starts a timer to flip through contained views                                                            |
+| void stopFlipping()                    | stops the flipping of the child views                                                                     |
 
 ### Useful methods that are used with ViewFlipper but part of ViewAnimator
 	
