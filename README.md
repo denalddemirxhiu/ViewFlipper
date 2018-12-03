@@ -54,6 +54,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 	
 	MainActivity.java
 
+
 	package com.example.android.viewflippersample;
 
 	import android.support.v7.app.AppCompatActivity;
