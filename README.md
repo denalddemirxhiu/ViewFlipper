@@ -51,6 +51,8 @@ These methods are very useful in the functionality of a ViewFlipper:
 | outAnimation     | property that defines the animation used when the child view leaves the screen                             |
 
 ## The code
+
+MainActivity contains the main logic of the tutorial application. The ViewFlipper contains three image views initially. The flipping interval is set by default to 2 seconds. The SeekBar is used to control the flipping interval between child views. The buttons are used to start/stop automatic flipping, show the previous view, show the next view, remove the current view and add a new image view to the viewFlipper. Animations are used to animate between the previous child and the next child. The ViewFlipper is set to start flipping automatically when loaded in the screen with a flipping interval of 2 seconds. Changes are made through the described buttons and the SeekBar.
 	
 							MainActivity.java
 
