@@ -51,8 +51,9 @@ These methods are very useful in the functionality of a ViewFlipper:
 | outAnimation     | property that defines the animation used when the child view leaves the screen                             |
 
 ## The code
-							MainActivity.java
 	
+	MainActivity.java
+
 	package com.example.android.viewflippersample;
 
 	import android.support.v7.app.AppCompatActivity;
