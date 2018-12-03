@@ -30,13 +30,15 @@ These methods are very useful in the functionality of a ViewFlipper:
 
 ### Useful methods that are used with ViewFlipper but part of ViewAnimator
 	
-	1. void addView(View child) - Used to add a new view to the ViewFlipper
-	2. View getCurrentView() - Returns the reference to the current child view displayed in the ViewFlipper
-	3. void removeView(View view) - Removes the specified view from the flipper
-	4. void setInAnimation(Animation inAnimation) - Specifies the animation that is going to be used when a child view enters the layout
-	5. void setOutAnimation(Animation outAnimation) - Specified the animation that is going to be used when the view exits the layout
-	6. void showNext() - used to display the next child view manually
-	7. void showPrevious() - used to display the previous child view manually
+| Method                                       | Use                                                                                  |
+|----------------------------------------------|--------------------------------------------------------------------------------------|
+| void addView(View child)                     | Used to add a new view to the ViewFlipper                                            |
+| View getCurrentView()                        | Returns the reference to the current child view displayed in the ViewFlipper         |
+| void removeView(View view)                   | Removes the specified view from the flipper                                          |
+| void setInAnimation(Animation inAnimation)   | Specifies the animation that is going to be used when a child view enters the layout |
+| void setOutAnimation(Animation outAnimation) | Specified the animation that is going to be used when the view exits the layout      |
+| void showNext()                              | Used to display the next child view manually                                         |
+| void showPrevious()                          | Used to display the previous child view manually                                     |
 
 ### Main attributes used in ViewFlipper:
 	
