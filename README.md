@@ -15,6 +15,7 @@ ViewFlipper has been introduced since the first release of Android (API level 1)
 
 ## Major Methods/Attributes
 These methods are very useful in the functionality of a ViewFlipper:
+	
 	1. boolean isAutoStart() - returns true if the ViewFlipper calls startFlipping automatically when it is displayed
 	2. boolean isFlipping() - returns true if the contained views are being flipped
 	3. void setAutoStart(boolean autoStart) - decides if the method is going to automatically call startFlipping() when it is attached to the container
@@ -23,6 +24,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 	6. void stopFlipping() - stops the flipping of the children views
 
 ### Useful methods that are used with ViewFlipper but part of ViewAnimator
+	
 	1. void addView(View child) - Used to add a new view to the ViewFlipper
 	2. View getCurrentView() - Returns the reference to the current child view displayed in the ViewFlipper
 	3. void removeView(View view) - Removes the specified view from the flipper
@@ -32,6 +34,7 @@ These methods are very useful in the functionality of a ViewFlipper:
 	7. void showPrevious() - used to display the previous child view manually
 
 ### Main attributes used in ViewFlipper:
+	
 	1. autoStart - property used to start animating automatically between children views (true or false value)
 	2. flipInterval - property used to set the time in milliseconds for the animation duration of each flip between child views
 	3. animateFirstView - property used to animate the first view of the ViewFlipper when the ViewFlipper is first displayed (true or false value)
