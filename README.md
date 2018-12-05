@@ -5,7 +5,7 @@
 ViewFlipper is a great widget to be used in animating multiple views that have been added to it. If given the functionality, it can animate automatically between the views it contains at specified intervals. The ViewFlipper can display only one view at a single instance in time. With ViewFlipper you can choose the animation that is used in flipping between different views and also provide custom animations to the flip.
 
 ## History of ViewFlipper
-ViewFlipper has been introduced since the first release of Android (API level 1). The widget is still supported up to the latest version of Android currently available at API level 28. ViewFlipper extends ViewAnimator, which is also a widget. The class hierarchy is as follows:
+ViewFlipper has been introduced in the first release of Android (API level 1). The widget is still supported up to the latest version of Android currently available at API level 28. ViewFlipper extends ViewAnimator, which is also a widget. The class hierarchy is as follows:
 	
 | Class Hierarchy             |
 |-----------------------------|
